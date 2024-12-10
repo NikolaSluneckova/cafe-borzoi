@@ -47,13 +47,15 @@ body{
     margin: 0;
     font-size: 18px;
 }
-.toggler, .toggler2 {
+.toggler, .toggler2{
     order: 3;
     padding-top: 20px;
 }
 .kosicek{
-    transform: scale(0.5);
-    order: -3;  
+    max-width: 70px;
+    height: auto;
+    width: 100%;
+    order: -3;
 }
 .facebook{
     transform: scale(1.1);
@@ -66,12 +68,12 @@ body{
 .nadpis, .nadpis2{
     font-size: 40px;
     font-weight: normal;
-    order: -1;
+    
 }
 .soc{
     margin-top: 10px;
 }
-.menu__checkbox{
+.menu__checkbox, .menu2__checkbox2{
     position: absolute;
     left: -9999px;
     width: 0;
@@ -120,10 +122,6 @@ body{
 .home{
     order: -1;
     display: none;
-}
-.menu2__checkbox2{
-    position: absolute;
-    left: -9999px;
 }
 .menu2__checkbox2:checked ~.menu2__list2{
     display: block;
@@ -269,7 +267,6 @@ body{
     border: 2px rgba(255, 229, 188, 1) solid;
     border-radius: 10px;
 }
-
 @media screen and (min-width: 768px){
     
 .footer_grid{
@@ -283,16 +280,15 @@ body{
     flex-direction: row;
 }
 .toggler, .toggler2{
-    order: 2;
     padding-top: 40px;
     padding-left: 20px;
 }
 .kosicek{
-    transform: scale(0.6);
-    margin-top: 20px;
-    margin-right: 20px;
+    max-width: 80px;
     order: 3;
-}   
+    margin-top: 30px;
+    margin-right: 20px;
+}
 .adresa{
     order: 1;
     margin-top: 20px;
@@ -314,14 +310,6 @@ body{
 }
 .nadpis{
     padding-left: 60px; 
-}
-.menu2{
-    margin-top: 10px;
-    margin-right: 50px;
-    order: 2;
-}
-.toggler2{
-    margin-right:50px;
 }
 .o_nas{
     margin-top: 100px;
@@ -388,12 +376,9 @@ body{
     order: 3;   
 }  
 .nadpis{
-    order: 3;
+    order: 2;
     font-size: 36px;
-    padding-left: 30px;
-}
-.kosicek{
-    margin-top: 20px;
+    margin-right: 80px;
 }
 .copy{
     margin-right: 80px;
