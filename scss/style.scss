@@ -1,0 +1,275 @@
+$barva: rgba(244, 123, 80, 1);
+$pismo: Raleway, sans-serif;
+$velikost-pisma: 16px;
+$spacer: 20px;
+
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+body{
+    font-family: Raleway, sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    background-color: &$barva;
+    background-image: url(/images/Borzoi_cafe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+
+
+
+.obr{
+    width: 100%;
+    height: 100%;
+    display: none;
+    object-fit: cover;
+}
+.footer_grid{
+   
+    display: flex;
+    
+    align-items: end;
+    justify-content:space-between;
+    font-size: 16px;
+    font-weight:normal;
+    
+
+    background-color: rgba(255, 229, 188, 1);
+}
+
+.hlavicka{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    
+    
+}
+.nadpis{
+    font-size: 30px;
+    text-wrap: nowrap;
+    font-weight: normal;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+    
+}
+
+.menu {
+    transform: scale(0.75);
+   margin-top: 40px;
+   margin-left: 20px;
+    
+   
+}
+
+.kosicek{
+    transform: scale(0.6);
+    margin-top: 20px;
+}
+
+.facebook{
+    transform: scale(1.1);
+   margin-bottom: 2px;
+}
+
+.ig{
+   transform: scale(0.9);
+    margin-left: 20px;
+
+}
+
+.adresa{
+    margin-right: 20px;
+}
+
+.OD{
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 768px){
+    @media screen and (min-width: 768px){
+        body{
+        background-image: none;  
+        
+        }
+    
+       .container{
+        display: grid;
+        justify-content: space-between;
+        height: 100vh;
+        grid-template-rows: 200px auto ;
+        grid-template-columns: 300px auto 300px;
+        grid-template-areas: 
+        "hlavicka hlavicka hlavicka"
+        "levy hlavni pravy"
+        ;
+       
+        
+       }
+    
+        .hlavicka{grid-area: hlavicka;}
+        .main_image{grid-area: main_image;}
+        .pravy{grid-area: pravy;}
+        .levy{grid-area: levy;}
+    
+       .hlavicka{
+        grid-column: 1 / span 3;
+        grid-row: 1;
+        justify-content: space-around;
+       }
+       .footer{
+        width: 100vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 100%;
+        position: absolute;
+        
+        
+       }
+       .footer_grid{
+        
+        position: relative;
+        padding: 10px 40px;
+       }
+       .adresa{
+        grid-column: 1;
+        grid-row: 3;
+        align-self: center;
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+       }
+
+        .adresa_odkaz, .nadpis_odkaz{
+        text-decoration: none;
+        color: black;
+        }
+
+       .copy{
+        align-self: center;
+       }
+        .OD{
+        grid-column: 3;
+        grid-row: 3;
+       align-self: center;
+        font-size: 14px;
+        }
+    
+       .menu{
+        grid-row: 1;
+        grid-column: 1;
+        
+       }
+      
+       
+       .main_image{
+        
+        grid-column: 2;
+        grid-row: 1 / span 2;
+        background-image: url(/images/Borzoi_cafe.png);
+        background-size: cover;
+        height: 107vh;
+        width: 75vh;
+        
+        
+       }
+       .nadpis{
+        grid-column: 2;
+        grid-row: 1;
+        position: relative;
+        
+        font-size: 40px;
+        margin-top: 0;
+        
+        
+       
+       }
+       .kosicek{
+        grid-column: 3;
+        grid-row: 1;
+        
+       }
+       .ig{
+        grid-column: 3;
+        grid-row: 3;
+        align-self: center;
+        
+       }
+       .facebook{
+        grid-column: 3;
+        grid-row: 3;
+        align-self: center;
+       
+       }
+    
+       .home{
+        transform: scale(0.7);
+       }
+    
+       .menu_list{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin: 0;
+        font-size: 24px;
+        
+        
+       }
+       .menu__item {
+        border: 1px rgba(97, 141, 241, 1);
+        border-radius: 10px;
+        background-color: rgba(97, 141, 241, 1);
+      }
+       .menu__link{
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+       }
+       .kocarek{
+        transform: scale(0.3);
+       }
+       .box{
+        display: flex;
+        align-items: center;
+        text-wrap: nowrap;
+        height: 100vh;
+        width: 100vh;
+        
+       }
+      
+       .cont{
+        display: grid;
+        grid-template-rows: 200px 1fr;
+        grid-template-columns: 100px 1fr 100px;
+        grid-template-areas: 
+        "sloupec_hlavicka sloupec_hlavicka sloupec_hlavicka"
+        "levy box pravy"
+        ;
+       
+        
+       }
+    
+        .sloupec_hlavicka{grid-area: sloupec_hlavicka;}
+        .box{grid-area: box;}
+        .pravy{grid-area: pravy;}
+        .levy{grid-area: levy;}
+
+        .sloupec_hlavicka{
+            display: flex;
+            height: 100vh;
+            justify-content: space-around;
+            align-items: flex-start;
+            grid-column: 1/ span 3;
+            grid-row: 1;
+            margin-top: 20px;
+            
+        }
+       
+       {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
