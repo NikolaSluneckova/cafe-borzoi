@@ -142,7 +142,8 @@ body{
 }
 .menu2__item2 a:hover{
     background-color: #90aef0;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 20px;
 }
 .menu2__item2 {
     border-radius: 20px;
