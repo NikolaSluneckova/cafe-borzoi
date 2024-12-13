@@ -58,6 +58,11 @@ body{
     order: 3;
     padding-top: 20px;
 }
+.toggler2{
+    display: none;
+    max-width: 40px;
+    height: auto;
+}
 .kosicek{
     max-width: 70px;
     height: auto;
@@ -75,7 +80,6 @@ body{
 .nadpis, .nadpis2{
     font-size: 40px;
     font-weight: normal;
-    
 }
 .soc{
     margin-top: 10px;
@@ -117,6 +121,12 @@ body{
 }
 .menu__checkbox:checked ~.menu__list{
     display: block;
+}
+.menu__checkbox:checked ~.menu__toggler .toggler{
+    display: none;
+}
+.menu__checkbox:checked ~.menu__toggler .toggler2{
+    display: inline-block;
 }
 .menu__toggler, .menu2__toggler2{
     cursor: pointer;
@@ -290,6 +300,9 @@ body{
 .toggler, .toggler2{
     padding-top: 40px;
     padding-left: 20px;
+}
+.toggler2{
+    max-width: 60px;
 }
 .kosicek{
     max-width: 80px;
