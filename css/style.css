@@ -66,10 +66,11 @@ body {
   padding-top: 20px;
 }
 
-.toggler2 {
+.toggler3 {
   display: none;
   max-width: 40px;
   height: auto;
+  padding-top: 20px;
 }
 
 .kosicek {
@@ -146,7 +147,7 @@ body {
   display: none;
 }
 
-.menu__checkbox:checked ~ .menu__toggler .toggler2 {
+.menu__checkbox:checked ~ .menu__toggler .toggler3 {
   display: inline-block;
 }
 
@@ -167,6 +168,14 @@ body {
 
 .menu2__checkbox2:checked ~ .menu2__list2 {
   display: block;
+}
+
+.menu2__checkbox2:checked ~ .menu2__toggler2 .toggler2 {
+  display: none;
+}
+
+.menu2__checkbox2:checked ~ .menu2__toggler2 .toggler3 {
+  display: inline-block;
 }
 
 .menu2__list2 {
@@ -351,8 +360,10 @@ body {
     padding-top: 40px;
     padding-left: 20px;
   }
-  .toggler2 {
+  .toggler3 {
     max-width: 60px;
+    padding-top: 40px;
+    padding-left: 20px;
   }
   .kosicek {
     max-width: 80px;
