@@ -22,8 +22,12 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  max-height: 100vh;
   margin: 0;
   padding: 0;
+  max-width: 768px;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
 }
 
 .footer_grid {
@@ -357,6 +361,10 @@ html, body {
     flex: 0 0 100%;
     justify-content: space-between;
     flex-direction: row;
+  }
+  .main_image {
+    max-width: 1400px;
+    min-width: 768px;
   }
   .toggler, .toggler2 {
     padding-top: 40px;
