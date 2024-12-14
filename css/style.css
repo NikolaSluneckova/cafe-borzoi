@@ -7,12 +7,14 @@ html {
   box-sizing: inherit;
 }
 
-body {
+html, body {
   font-family: "Raleway", sans-serif;
   margin: 0;
   line-height: 1.5;
   background-color: #F47B50;
   padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .main_image {

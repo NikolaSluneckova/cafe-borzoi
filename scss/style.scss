@@ -8,12 +8,14 @@ $text-color: black;
 html { box-sizing: border-box; }
 *, :after, :before { box-sizing: inherit; }
 
-body{
+html, body{
     font-family: $default-font;
     margin: 0;
     line-height: 1.5;
     background-color: $background-color;
     padding: 0;
+    height: 100%;
+    width: 100%;
 }
 .main_image{
     background-image: url(/images/Borzoi.svg);
