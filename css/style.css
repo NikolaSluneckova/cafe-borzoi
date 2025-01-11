@@ -225,7 +225,8 @@ html, body {
   flex: 0 0 100%;
   flex-direction: column;
   text-wrap: nowrap;
-  height: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
   align-items: center;
   margin: 20px;
   padding: 0;
@@ -305,12 +306,11 @@ html, body {
   max-width: 100%;
   min-height: -moz-min-content;
   min-height: min-content;
-  max-height: -moz-max-content;
-  max-height: max-content;
+  max-width: 100%;
   align-items: center;
   text-align: center;
   gap: 100px;
-  padding: 50px 20px;
+  padding: 50px 100px;
   margin: auto;
 }
 
@@ -327,7 +327,7 @@ html, body {
   height: auto;
   width: 100%;
   max-width: 800px;
-  min-width: 200px;
+  min-width: 300px;
 }
 
 .kontejner {
@@ -404,9 +404,10 @@ html, body {
     padding-left: 60px;
   }
   .o_nas {
-    margin-top: 100px;
+    margin-top: 50px;
     max-width: 100%;
     padding: 0 200px;
+    gap: 50px;
   }
   .boxíček {
     flex-direction: row;
@@ -518,7 +519,6 @@ html, body {
     margin: 0;
     flex-direction: row;
     text-wrap: nowrap;
-    height: 100vh;
     padding: 50px 300px;
   }
   .cont {
