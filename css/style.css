@@ -80,7 +80,7 @@ html, body {
 }
 
 .kosicek {
-  max-width: 70px;
+  max-width: 80px;
   height: auto;
   width: 100%;
   order: -3;
@@ -376,7 +376,6 @@ html, body {
     padding-left: 20px;
   }
   .kosicek {
-    max-width: 80px;
     order: 3;
     margin-top: 30px;
     margin-right: 20px;
