@@ -87,13 +87,9 @@ html, body {
 }
 
 .facebook {
-  transform: scale(1.1);
+  transform: scale(1.2);
   margin-bottom: 2px;
   margin-left: 10px;
-}
-
-.ig {
-  transform: scale(0.9);
 }
 
 .nadpis, .nadpis2 {
