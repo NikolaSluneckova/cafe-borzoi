@@ -134,7 +134,7 @@ html, body {
   padding-top: 50px;
 }
 
-.menu__item a:hover {
+.menu__item:hover {
   background-color: #90aef0;
   cursor: pointer;
   border-radius: 20px;
@@ -455,16 +455,44 @@ html, body {
     flex: 0 0 25%;
   }
   .hlavicka {
+    background: transparent;
+    justify-content: space-between;
+    position: absolute;
     flex: 0 0 100%;
-    padding: 0 80px 0 150px;
+    width: 100%;
+  }
+  .toggler {
+    display: none;
   }
   .OD {
     order: 3;
   }
   .nadpis {
-    order: 2;
-    font-size: 36px;
+    align-self: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-left: 80px;
+  }
+  .kosicek {
     margin-right: 80px;
+  }
+  .menu__list {
+    display: inline-block;
+    width: 350px;
+    background-color: #F47B50;
+  }
+  .menu__item {
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    height: 80px;
+  }
+  .menu__item:first-child {
+    padding-top: 20px;
+  }
+  .menu__item:hover {
+    padding: 20px;
+    border-radius: 30px;
   }
   .copy {
     margin-right: 80px;
