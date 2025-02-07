@@ -440,14 +440,14 @@ html, body {
     flex: 0 0 100%;
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
+    height: 100vh;
   }
   .levy {
     flex: 0 0 25%;
   }
   .main_image {
     background-image: url(/images/Borzoi_cafe.png);
-    height: 100vh;
+    height: 100%;
     flex: 0 0 50%;
     width: 100%;
   }
@@ -458,7 +458,6 @@ html, body {
     background: transparent;
     justify-content: space-between;
     position: absolute;
-    flex: 0 0 100%;
     width: 100%;
   }
   .toggler {
@@ -467,11 +466,17 @@ html, body {
   .OD {
     order: 3;
   }
+  .adresa {
+    margin-top: 50px;
+  }
+  .adresa a:hover {
+    color: #FFE5BC;
+  }
   .nadpis {
     align-self: center;
     font-size: 40px;
     margin-top: 0;
-    margin-left: 80px;
+    margin-left: 110px;
   }
   .kosicek {
     margin-right: 80px;
@@ -479,11 +484,13 @@ html, body {
   .menu__list {
     display: inline-block;
     width: 350px;
+    position: fixed;
     background-color: #F47B50;
   }
   .menu__item {
     margin: 20px;
     border-radius: 30px;
+    font-size: 28px;
     padding: 20px;
     height: 80px;
   }
@@ -494,8 +501,18 @@ html, body {
     padding: 20px;
     border-radius: 30px;
   }
+  .footer {
+    background: transparent;
+  }
+  .footer_grid {
+    background: transparent;
+    position: absolute;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+  }
   .copy {
-    margin-right: 80px;
+    display: none;
   }
   .home {
     transform: scale(0.7);
@@ -508,7 +525,7 @@ html, body {
     display: flex;
     position: relative;
     cursor: pointer;
-    background-color: #F47B50;
+    background-color: #FFE5BC;
     margin-left: 100px;
     margin-top: 20px;
   }

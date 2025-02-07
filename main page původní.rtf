@@ -1,0 +1,579 @@
+{\rtf1\ansi\ansicpg1250\deff0\nouicompat\deflang1029{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset238 Calibri;}}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang5 $background-color: #F47B50;\par
+$secondary-color: #FFE5BC;\par
+$default-font: "Raleway", sans-serif;\par
+$lightblue: #90aef0;\par
+$blue: #618DF1;\par
+$text-color: black;\par
+\par
+html \{ box-sizing: border-box; \}\par
+*, :after, :before \{ box-sizing: inherit; \}\par
+\par
+html, body\{\par
+    font-family: $default-font;\par
+    margin: 0;\par
+    line-height: 1.5;\par
+    background-color: $background-color;\par
+    padding: 0;\par
+    height: 100%;\par
+    width: 100%;\par
+\}\par
+.main_image\{\par
+    background-image: url(/images/Borzoi.svg);\par
+    background-repeat: no-repeat;\par
+    background-size: cover;\par
+    min-height: 100vh;\par
+    max-height: 100vh;\par
+    margin: 0;\par
+    padding: 0;\par
+    max-width: 768px;\par
+    min-width: fit-content;\par
+ \}\par
+.footer_grid\{\par
+    background-color: $secondary-color;\par
+    padding: 20px 40px;\par
+    font-size: 18px;\par
+    text-align: center;\par
+    display: flex;\par
+    flex-direction: column;\par
+\}\par
+.copy\{\par
+    order: 4;\par
+    margin-top: 20px;\par
+\}\par
+.adresa_odkaz, .nadpis_odkaz, .nadpis_odkaz2\{\par
+    text-decoration: none;\par
+    color: $text-color;\par
+\}\par
+.OD\{\par
+    order: 1;\par
+\}\par
+.adresa\{\par
+    order: 2;\par
+\}\par
+.hlavicka\{\par
+    background-color: $secondary-color;\par
+    padding: 20px;\par
+    text-align: center;\par
+    display: flex;\par
+    flex-direction: column;\par
+    margin: 0;\par
+    font-size: 18px;\par
+\}\par
+.toggler, .toggler2\{\par
+    order: 3;\par
+    padding-top: 20px;\par
+\}\par
+.toggler3\{\par
+    display: none;\par
+    max-width: 40px;\par
+    height: auto;\par
+    padding-top: 20px;\par
+\}\par
+.kosicek\{\par
+    max-width: 80px;\par
+    height: auto;\par
+    width: 100%;\par
+    order: -3;\par
+\}\par
+.facebook\{\par
+    transform: scale(1.2);\par
+    margin-bottom: 2px;\par
+    margin-left: 10px;\par
+\}\par
+.nadpis, .nadpis2\{\par
+    font-size: 40px;\par
+    font-weight: normal;\par
+\}\par
+.soc\{\par
+    margin-top: 10px;\par
+\}\par
+.menu__checkbox, .menu2__checkbox2\{\par
+    position: absolute;\par
+    left: -9999px;\par
+    width: 0;\par
+    height: 0;\par
+    opacity: 0;\par
+\}\par
+.menu__list\{\par
+    margin: 0;\par
+    padding: 0;\par
+    background-color: $secondary-color;\par
+    list-style: none;\par
+    display: none;\par
+    position: absolute;\par
+    right: 0;\par
+    left: 0;\par
+    text-align: center;\par
+    border-radius: 20px;\par
+\}\par
+.menu__item \{\par
+    background-color: $secondary-color;\par
+    padding: 20px;\par
+    font-size: 30px;\par
+    display: block;\par
+    border-radius: 20px;\par
+\}\par
+.menu__item:first-child, .menu2__item2:first-child\{\par
+    padding-top: 50px;\par
+\}\par
+.menu__item:hover\{\par
+    background-color: $lightblue;\par
+    cursor: pointer;\par
+    border-radius: 20px;\par
+    padding: 20px;\par
+\}\par
+.menu__checkbox:checked ~.menu__list\{\par
+    display: block;\par
+\}\par
+.menu__checkbox:checked ~.menu__toggler .toggler\{\par
+    display: none;\par
+\}\par
+.menu__checkbox:checked ~.menu__toggler .toggler3\{\par
+    display: inline-block;\par
+\}\par
+.menu__toggler, .menu2__toggler2\{\par
+    cursor: pointer;\par
+\}\par
+.menu__link\{\par
+    text-decoration: none;\par
+    color: $text-color;\par
+    display: block;   \par
+\}\par
+.home\{\par
+    order: -1;\par
+    display: none;\par
+\}\par
+.menu2__checkbox2:checked ~.menu2__list2\{\par
+    display: block;\par
+\}\par
+.menu2__checkbox2:checked ~.menu2__toggler2 .toggler2\{\par
+    display: none;\par
+\}\par
+.menu2__checkbox2:checked ~.menu2__toggler2 .toggler3\{\par
+    display: inline-block;\par
+\}\par
+.menu2__list2\{\par
+    display: none;\par
+    position: absolute;\par
+    list-style: none;\par
+    margin: 0;\par
+    padding: 0;\par
+    left: 0;\par
+    right: 0;\par
+    font-size: 24px;\par
+    cursor: pointer;\par
+    text-align: center;\par
+    border-radius: 20px;\par
+    background-color: $secondary-color;\par
+\}\par
+.menu2__item2 a:hover\{\par
+    background-color: $lightblue;\par
+    border-radius: 20px;\par
+    padding: 20px;\par
+\}\par
+.menu2__item2 \{\par
+    border-radius: 20px;\par
+    background-color: $secondary-color;\par
+    text-align: center;\par
+    padding: 20px;\par
+    font-size: 30px;\par
+    display: block;\par
+\}\par
+.menu2__link2\{\par
+    text-decoration: none;\par
+    color: $text-color;\par
+    display: block;\par
+\}\par
+.box\'edk\{\par
+    display: flex;\par
+    flex: 0 0 100%;\par
+    flex-direction: column;\par
+    text-wrap: nowrap;\par
+    height: fit-content;\par
+    align-items: center;\par
+    margin: 20px;\par
+    padding: 0;\par
+    justify-content: space-between;\par
+\}\par
+.sloupec_hlavicka\{\par
+    padding: 20px;\par
+    text-align: center;\par
+    display: flex;\par
+    flex-direction: column;\par
+    margin: 0;\par
+    font-size: 18px;\par
+    background-color: $secondary-color; \par
+\}\par
+.cont\{\par
+    display: flex;\par
+    flex-direction: column;\par
+    height: 100vh;\par
+\}\par
+.facebook\{\par
+    margin-left: 5px;\par
+\}\par
+.mapa\{\par
+    border: 5px solid;\par
+    border-radius: 10px;\par
+    border-color: $secondary-color;\par
+    width: 100%;\par
+    height: 100%;\par
+\}\par
+.text, .textik\{\par
+    line-height: 2;\par
+    height: 50%;\par
+    margin: 50px 100px;\par
+    text-align: center;\par
+    text-wrap: wrap;\par
+\}\par
+.IG, .fb, .email\{\par
+    text-decoration:underline;\par
+    color: $text-color;\par
+\}\par
+.IG:hover, .fb:hover, .email:hover\{\par
+    color: $secondary-color;\par
+\}\par
+.box\'ed\f1\'e8ek\{\par
+    display: flex;\par
+    flex-direction: column;\par
+    max-width: 100%;\par
+    min-height: min-content;\par
+    max-height: max-content;\par
+    align-items: center;\par
+    gap: 20px;\par
+    padding: 50px 20px;\par
+    margin: auto;\par
+\}\par
+.obr\{\par
+    height: auto;\par
+    width: 100%;\par
+    max-width: 300px;\par
+    border: 2px $secondary-color solid;\par
+    border-radius: 10px;\par
+\}\par
+.o_nas\{\par
+    display: flex;\par
+    flex-direction: column;\par
+    max-width: 100%;\par
+    min-height: min-content;\par
+    max-width: 100%;\par
+    align-items: center;\par
+    text-align: center;\par
+    gap: 100px;\par
+    padding: 50px 100px;\par
+    margin: auto;\par
+\}\par
+.o_nas__link\{\par
+    color: $secondary-color;\par
+    text-decoration: none;\par
+\}\par
+.o_nas__link:hover\{\par
+    color: $secondary-color;\par
+\}\par
+\par
+.kocarek\{\par
+    height: auto;\par
+    width: 100%;\par
+    max-width: 800px;\par
+    min-width: 300px;\par
+\}\par
+.kontejner\{\par
+    display: flex;\par
+    flex-direction: column;\par
+    max-width: 100%;\par
+    min-height: min-content;\par
+    max-height: max-content;\par
+    align-items: center;\par
+    gap: 20px;\par
+    padding: 50px 10px;\par
+\}\par
+.kaficko\{\par
+    height: auto;\par
+    width: 100%;\par
+    max-width: 150px;\par
+    border: 2px $secondary-color solid;\par
+    border-radius: 10px;\par
+\}\par
+@media screen and (min-width: 768px)\{\par
+    \par
+.footer_grid\{\par
+    display: flex;\par
+    flex-direction: row;\par
+    justify-content: space-between;  \par
+\}\par
+.hlavicka\{\par
+    flex: 0 0 100%;\par
+    justify-content: space-between;\par
+    flex-direction: row;\par
+\}\par
+.main_image\{\par
+    max-width: 1400px;\par
+    min-width: 768px;\par
+\}\par
+.toggler, .toggler2\{\par
+    padding-top: 40px;\par
+    padding-left: 20px;\par
+\}\par
+.toggler3\{\par
+    max-width: 60px;\par
+    padding-top: 40px;\par
+    padding-left: 20px;\par
+\}\par
+.kosicek\{\par
+    \par
+    order: 3;\par
+    margin-top: 30px;\par
+    margin-right: 20px;\par
+\}\par
+.adresa\{\par
+    order: 1;\par
+    margin-top: 20px;\par
+\}\par
+.OD\{\par
+    order: 2;\par
+    margin-right: 20px;\par
+\}\par
+.copy\{\par
+    order: 3;\par
+\}\par
+.sloupec_hlavicka\{\par
+    justify-content: space-between;\par
+    flex-direction: row;\par
+\}\par
+.nadpis2\{\par
+    margin-left: 20px;\par
+    margin-top: 30px;\par
+\}\par
+.nadpis\{\par
+    padding-left: 60px; \par
+\}\par
+.o_nas\{\par
+    margin-top: 50px;\par
+    max-width: 100%;\par
+    padding: 0 200px;\par
+    gap: 50px;\par
+\}\par
+.box\f0\lang1033\'ed\f1\'e8ek\{\par
+    flex-direction: row;\par
+    width: 60%;\par
+    justify-content: center;\par
+    padding: 100px 40px;\par
+    margin: auto;\par
+    gap: 40px;\par
+\}\par
+.obr\{\par
+    width: 100%;\par
+    height: 100%;\par
+\}\par
+.kontejner\{\par
+    flex-direction: row;\par
+    height: 100vh;\par
+    align-items: start;\par
+    padding: 50px;\par
+\}\par
+.kafe\{\par
+    width: 100%;\par
+    height: 30%;\par
+\}\par
+.kaficko\{\par
+    max-width: 250px;\par
+\}\par
+\}\par
+\par
+@media screen and (min-width: 1400px)\{\par
+  \par
+.container\{\par
+    display: flex;\par
+    flex-direction: column;\par
+    flex-wrap: wrap;\par
+\}\par
+.box\{\par
+    flex: 0 0 100%;\par
+    display: flex;\par
+    flex-wrap: wrap;\par
+    height: 100%;\par
+\}\par
+.levy\{\par
+    flex: 0 0 25%;        \par
+\}\par
+.main_image\{\par
+    background-image: url(/images/Borzoi_cafe.png);\par
+    height: 100vh;\par
+    flex: 0 0 50%;\par
+    width: 100%;\par
+\}\par
+.pravy\{\par
+    flex: 0 0 25%;\par
+\}\par
+.hlavicka\{\par
+    background: transparent;\par
+    justify-content: space-between;\par
+    position: absolute;\par
+    flex: 0 0 100%;\par
+    width: 100%;\par
+\}\par
+.toggler\{\par
+    display: none;\par
+\}\par
+.OD\{\par
+    order: 3;   \par
+\}  \par
+.nadpis\{\par
+    align-self: center;\par
+    font-size:40px;\par
+    margin-top: 0;\par
+    margin-left: 80px;\par
+\}\par
+.kosicek\{\par
+    margin-right: 80px;\par
+\}\par
+.menu__list\{\par
+    display: inline-block;\par
+    width: 350px;\par
+    \par
+    background-color:#F47B50;\par
+    \par
+  \par
+\}\par
+.menu__item\{\par
+    margin: 20px;\par
+    border-radius: 30px;\par
+    \par
+    padding: 20px;\par
+    height: 80px;\par
+    \par
+\}\par
+.menu__item:first-child\{\par
+    \par
+   \par
+    padding-top: 20px;\par
+\}\par
+.menu__item:hover\{\par
+    padding: 20px;\par
+    border-radius: 30px;\par
+    \par
+\}\par
+.copy\{\par
+    margin-right: 80px;\par
+\}\par
+.home\{\par
+    transform: scale(0.7);\par
+    order: -1;\par
+    display: block;\par
+    margin-top: 10px;\par
+    margin-left: 50px;\par
+\}\par
+.menu2__list2\{\par
+    display: flex;\par
+    position: relative;\par
+    cursor: pointer;\par
+    background-color: $background-color;\par
+    margin-left: 100px;\par
+    margin-top: 20px;\par
+\}\par
+.menu2__item2:first-child\{\par
+    padding: 0px;\par
+\}\par
+.menu2__item2\{\par
+    border: 1px $blue;\par
+    border-radius: 20px;\par
+    background-color: $blue;\par
+    width: 200px;\par
+    height: 30px;\par
+    text-align: center;\par
+    margin: 0 10px;\par
+    font-size: 20px;\par
+    padding: 0;\par
+\}\par
+.menu2__item2 a:hover\{\par
+    border-radius: 20px;\par
+    padding: 0px;\par
+\}\par
+.menu2\{\par
+    margin:20px;\par
+    order: -1;\par
+\}\par
+.nadpis2, .toggler2\{\par
+    display: none;\par
+\}\par
+.box\f0\'edk\{\par
+    display: flex;\par
+    margin: 0;\par
+    flex-direction: row;\par
+    text-wrap: nowrap;\par
+    padding: 50px 300px;\par
+\}\par
+.cont\{\par
+    display: flex;\par
+    flex-direction: column;\par
+    height: 100vh;\par
+    padding: 0;\par
+    margin: 0;\par
+\}\par
+.sloupec_hlavicka\{\par
+    background-color: $background-color;\par
+    display: flex;\par
+    width: 100%;\par
+    height: 100%;\par
+    margin-top: 20px;\par
+    padding: 0;\par
+    justify-content: space-around;\par
+\}\par
+.facebook\{\par
+    margin-left: 5px;\par
+\}\par
+.mapa\{\par
+    width: 500px; \par
+    height: 400px; \par
+    border: 5px solid;\par
+    border-radius: 10px;\par
+    border-color: $secondary-color;\par
+    margin-right: 50px;\par
+    margin-bottom: 100px;\par
+\}\par
+.text\{\par
+    line-height: 2;\par
+    text-align: left;\par
+    margin-left: 70px;\par
+    padding-right: 40px;\par
+    align-self: flex-start;\par
+\}\par
+.IG, .fb, .email\{\par
+    text-decoration:underline;\par
+    color: $text-color;\par
+\}\par
+.obr:hover\{\par
+    transform: scale(1.3);\par
+    cursor: pointer;\par
+\}\par
+.o_nas\{\par
+    max-width: 50%;\par
+    margin: auto;\par
+    padding: 50px 0;\par
+    gap: 0;\par
+\}\par
+.o_nas__link\{\par
+    color: $text-color;   \par
+\}\par
+.o_nas__link:hover\{\par
+    color: $secondary-color;\par
+\}\par
+.kontejner\{\par
+    width: 60%;\par
+    justify-content: center;\par
+    padding: 100px 40px;\par
+    margin: auto;\par
+\}\par
+.kafe\{\par
+    width: 100%;\par
+    height: 80%;\par
+\}\par
+.kaficko:hover\{\par
+    transform: scale(1.3);\par
+    cursor: pointer;\par
+\}\par
+\}\lang5\par
+}
+ 
