@@ -427,7 +427,7 @@ html, body{
 }
 .nadpis{
     align-self: center;
-    font-size:40px;
+    font-size:35px;
     margin-top: 0;
     margin-left: 110px;
 }
@@ -437,7 +437,7 @@ html, body{
 
 .menu__list{
     display: inline-block;
-    width: 350px;
+    width: 320px;
     position: fixed;
     background-color:#F47B50;
     
@@ -446,18 +446,19 @@ html, body{
 .menu__item{
     margin: 20px;
     border-radius: 30px;
-    font-size: 28px;
-    padding: 20px;
-    height: 80px;
+    font-size: 25px;
+    padding: 15px;
+    height: 70px;
+    text-align: center;
     
 }
 .menu__item:first-child{
     
    
-    padding-top: 20px;
+    padding-top: 15px;
 }
 .menu__item:hover{
-    padding: 20px;
+    padding: 15px;
     border-radius: 30px;
 }
 .footer{
@@ -483,28 +484,32 @@ html, body{
 .menu2__list2{
     display: flex;
     position: relative;
-    cursor: pointer;
-    background-color: $secondary-color;
+
+    background-color:$background-color;
     margin-left: 100px;
     margin-top: 20px;
 }
 .menu2__item2:first-child{
-    padding: 0px;
+    padding: 5px;
 }
 .menu2__item2{
-    border: 1px $blue;
+    
     border-radius: 20px;
     background-color: $blue;
     width: 200px;
-    height: 30px;
+    height: 40px;
     text-align: center;
     margin: 0 10px;
     font-size: 20px;
-    padding: 0;
+    padding: 5px;
 }
+
 .menu2__item2 a:hover{
     border-radius: 20px;
-    padding: 0px;
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    
 }
 .menu2{
     margin:20px;
@@ -515,10 +520,11 @@ html, body{
 }
 .boxík{
     display: flex;
-    margin: 0;
+    padding: 0;
     flex-direction: row;
     text-wrap: nowrap;
-    padding: 50px 300px;
+    margin: 0px 300px;
+    height: 100vh;
 }
 .cont{
     display: flex;
@@ -527,6 +533,7 @@ html, body{
     padding: 0;
     margin: 0;
 }
+
 .sloupec_hlavicka{
     background-color: $background-color;
     display: flex;
@@ -546,7 +553,8 @@ html, body{
     border-radius: 10px;
     border-color: $secondary-color;
     margin-right: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    padding: 0;
 }
 .text{
     line-height: 2;
@@ -559,15 +567,30 @@ html, body{
     text-decoration:underline;
     color: $text-color;
 }
+.boxíček{
+    padding: 0;
+    margin-bottom: 100px;
+}
 .obr:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
     cursor: pointer;
+}
+.textik{
+    margin: 0;
+}
+.kocarek1{
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    height: 80%;
 }
 .o_nas{
     max-width: 50%;
     margin: auto;
     padding: 50px 0;
     gap: 0;
+    
+    
 }
 .o_nas__link{
     color: $text-color;   
