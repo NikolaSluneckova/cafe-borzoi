@@ -80,9 +80,7 @@ html, body {
 }
 
 .kosicek {
-  max-width: 80px;
-  height: auto;
-  width: 100%;
+  max-width: 70px;
   order: -3;
 }
 
@@ -254,6 +252,8 @@ html, body {
   border-color: #FFE5BC;
   width: 100%;
   height: 100%;
+  min-height: 400px;
+  min-width: 200px;
 }
 
 .text, .textik {
@@ -380,11 +380,11 @@ html, body {
     margin-top: 20px;
   }
   .OD {
-    order: 2;
+    order: 3;
     margin-right: 20px;
   }
   .copy {
-    order: 3;
+    order: 2;
   }
   .sloupec_hlavicka {
     justify-content: space-between;
