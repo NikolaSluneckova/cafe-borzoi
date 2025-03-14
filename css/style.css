@@ -135,8 +135,8 @@ html, body {
   padding-top: 30px;
 }
 
-.menu__item:first-child:hover, .menu2__item2:first-child:hover {
-  margin-top: 20px;
+.menu2__item2:hover {
+  padding: 0;
 }
 
 .menu__item:hover {
@@ -201,6 +201,7 @@ html, body {
 
 .menu2__item2 a:hover {
   background-color: #90aef0;
+  cursor: pointer;
   border-radius: 20px;
   padding: 20px;
 }
@@ -498,6 +499,11 @@ html, body {
     justify-content: space-between;
     width: 100%;
   }
+  .kosicek {
+    max-width: 80px;
+    margin-top: 40px;
+    margin-right: 40px;
+  }
   .home {
     transform: scale(0.7);
     order: -1;
@@ -513,23 +519,24 @@ html, body {
     margin-top: 20px;
   }
   .menu2__item2:first-child {
-    padding: 5px;
+    padding-top: 5px;
+  }
+  .menu2__item2:first-child:hover {
+    padding: 0;
   }
   .menu2__item2 {
     border-radius: 20px;
     background-color: #618DF1;
     width: 200px;
     height: 40px;
-    text-align: center;
     margin: 0 10px;
     font-size: 20px;
-    padding: 5px;
+    padding-top: 5px;
   }
   .menu2__item2 a:hover {
     border-radius: 20px;
     padding: 5px;
-    width: 200px;
-    height: 40px;
+    margin: 0px;
   }
   .menu2 {
     margin: 20px;
