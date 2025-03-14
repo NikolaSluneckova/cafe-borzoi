@@ -82,7 +82,7 @@ html, body {
 
 .toggler, .toggler2 {
   max-width: 30px;
-  margin-top: 30px;
+  margin-top: 25px;
   margin-left: 10px;
 }
 
@@ -135,7 +135,7 @@ html, body {
   padding-top: 30px;
 }
 
-.menu__item:first-child:hover {
+.menu__item:first-child:hover, .menu2__item2:first-child:hover {
   margin-top: 20px;
 }
 
