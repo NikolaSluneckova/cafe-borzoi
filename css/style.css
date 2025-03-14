@@ -126,7 +126,7 @@ html, body {
 .menu__item {
   background-color: #FFE5BC;
   padding: 20px;
-  font-size: 24px;
+  font-size: 20px;
   display: block;
   border-radius: 20px;
 }
@@ -211,7 +211,7 @@ html, body {
   background-color: #FFE5BC;
   text-align: center;
   padding: 20px;
-  font-size: 24px;
+  font-size: 20px;
   display: block;
 }
 
