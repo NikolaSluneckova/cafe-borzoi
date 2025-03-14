@@ -60,11 +60,9 @@ html, body {
 .hlavicka {
   background-color: #FFE5BC;
   padding: 20px;
-  text-align: center;
+  justify-content: space-between;
   display: flex;
-  flex-direction: column;
   margin: 0;
-  font-size: 18px;
 }
 
 .toggler, .toggler2 {
@@ -80,8 +78,20 @@ html, body {
 }
 
 .kosicek {
-  max-width: 70px;
+  max-width: 50px;
   order: -3;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.toggler {
+  max-width: 30px;
+  margin-top: 5px;
+}
+
+.toggler3 {
+  max-width: 20px;
+  margin-top: 5px;
 }
 
 .facebook {
@@ -90,7 +100,13 @@ html, body {
   margin-left: 10px;
 }
 
-.nadpis, .nadpis2 {
+.nadpis {
+  font-size: 24px;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.nadpis2 {
   font-size: 40px;
   font-weight: normal;
 }
@@ -123,7 +139,7 @@ html, body {
 .menu__item {
   background-color: #FFE5BC;
   padding: 20px;
-  font-size: 30px;
+  font-size: 24px;
   display: block;
   border-radius: 20px;
 }
@@ -361,19 +377,21 @@ html, body {
     max-width: 1400px;
     min-width: 768px;
   }
-  .toggler, .toggler2 {
+  .toggler2 {
     padding-top: 40px;
     padding-left: 20px;
   }
+  .toggler {
+    max-width: 40px;
+    margin-left: 20px;
+  }
   .toggler3 {
-    max-width: 60px;
-    padding-top: 40px;
+    max-width: 50px;
+    padding-top: 20px;
     padding-left: 20px;
   }
   .kosicek {
-    order: 3;
-    margin-top: 30px;
-    margin-right: 20px;
+    max-width: 60px;
   }
   .adresa {
     order: 1;
@@ -393,9 +411,6 @@ html, body {
   .nadpis2 {
     margin-left: 20px;
     margin-top: 30px;
-  }
-  .nadpis {
-    padding-left: 60px;
   }
   .o_nas {
     margin-top: 50px;
@@ -475,7 +490,7 @@ html, body {
     align-self: center;
     font-size: 35px;
     margin-top: 0;
-    margin-left: 60px;
+    margin-left: 100px;
   }
   .nadpis a:hover {
     color: #F47B50;
