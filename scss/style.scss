@@ -14,7 +14,7 @@ html, body{
     line-height: 1.5;
     background-color: $background-color;
     padding: 0;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     
 }
@@ -394,7 +394,8 @@ html, body{
     height: 100vh;
 }
 .levy{
-    flex: 0 0 25%;        
+    flex: 0 0 25%;
+    
 }
 .main_image{
     background-image: url(/images/Borzoi_cafe.png);
@@ -428,7 +429,7 @@ html, body{
     align-self: center;
     font-size:35px;
     margin-top: 0;
-    margin-left: 100px;
+    margin-left: 160px;
     
 }
 
@@ -437,18 +438,18 @@ html, body{
 }
 .menu__list{
     display: inline-block;
-    width: 320px;
+    width: 280px;
     position: fixed;
     background-color:#F47B50;
-    
+    margin-left: 50px;
   
 }
 .menu__item{
     margin: 20px;
     border-radius: 30px;
-    font-size: 25px;
+    font-size: 22px;
     padding: 15px;
-    height: 70px;
+    height: 60px;
     text-align: center;
     
 }
@@ -471,7 +472,7 @@ html, body{
 .kosicek{
     max-width: 80px;
     margin-top: 40px;
-    margin-right: 40px;
+    margin-right: 90px;
 }
 .home{
     transform: scale(0.7);
